@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Природа Кыргызстана: горы, озёра, ореховые леса</title>
+<meta name="description" content="Тянь-Шань, Ысык-Куль, Сон-Куль и ореховые леса Арсланбоба: куда ехать и когда.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,500&family=Onest:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#">Кыргызстан</a>
+  <nav aria-label="Разделы">
+    <a href="#places">Места</a>
+    <a href="#wild">Живая природа</a>
+    <a href="#when">Когда ехать</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <svg class="ridges" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true">
+    <path class="peak" d="M700 600 L820 330 L880 250 L930 40 L985 230 L1030 280 L1120 420 L1200 600Z"/>
+    <path class="snow" d="M930 40 L985 230 L960 215 L940 255 L918 225 L898 265 L880 250 L912 150Z"/>
+    <path class="r r1" d="M0 330 L120 270 L230 310 L360 220 L470 290 L600 190 L720 280 L850 230 L980 300 L1100 250 L1200 300 V600 H0Z"/>
+    <path class="r r2" d="M0 400 L90 350 L200 390 L330 300 L440 370 L560 280 L680 360 L790 320 L920 380 L1060 330 L1200 390 V600 H0Z"/>
+    <path class="r r3" d="M0 600 V470 L140 420 L260 460 L400 380 L520 450 L650 400 L780 470 L910 430 L1040 470 L1200 430 V600Z"/>
+  </svg>
+
+  <ol class="ruler" aria-label="Высоты в метрах">
+    <li style="--h:93%"><b>7439 м</b> пик Победы</li>
+    <li style="--h:38%"><b>3016 м</b> озеро Сон-Куль</li>
+    <li style="--h:20%"><b>1607 м</b> озеро Ысык-Куль</li>
+  </ol>
+
+  <div class="hero-text">
+    <h1>Страна, которая почти вся стоит на горах</h1>
+    <p>Горы занимают более 90% территории Кыргызстана. Здесь ледники Тянь-Шаня, озеро, которое не замерзает зимой, и летние пастбища, где до сих пор ставят юрты.</p>
+    <a class="btn" href="#places">Выбрать место</a>
+  </div>
+</section>
+
+<main>
+<section id="places" class="wrap">
+  <h2>Куда смотреть</h2>
+  <p class="lead">Места расположены по высоте над уровнем моря. Полоска справа показывает высоту относительно пика Победы.</p>
+
+  <div class="filters" role="group" aria-label="Фильтр мест">
+    <button class="on" data-f="all">Все</button>
+    <button data-f="lake">Озёра</button>
+    <button data-f="mountain">Горы</button>
+    <button data-f="land">Леса и каньоны</button>
+  </div>
+
+  <ol class="places">
+    <li data-t="land">
+      <div class="alt"><strong>1600</strong> м<small>около</small></div>
+      <div class="info"><h3>Арсланбоб</h3>
+      <p>Ореховые леса на склонах Ферганского хребта: одни из крупнейших в мире естественных рощ грецкого ореха. Осенью они золотятся, а рядом шумят два водопада.</p>
+      <span class="meta">Джалал-Абадская область</span></div>
+      <div class="bar"><i style="--w:21.5%"></i></div>
+    </li>
+    <li data-t="lake">
+      <div class="alt"><strong>1607</strong> м</div>
+      <div class="info"><h3>Ысык-Куль</h3>
+      <p>Одно из крупнейших горных озёр мира: длина около 180 км, глубина больше 600 м. Вода слегка солоноватая и не замерзает даже в сильный мороз.</p>
+      <span class="meta">Иссык-Кульская область</span></div>
+      <div class="bar"><i style="--w:21.6%"></i></div>
+    </li>
+    <li data-t="land">
+      <div class="alt"><strong>1700</strong> м<small>около</small></div>
+      <div class="info"><h3>Каньон Сказка</h3>
+      <p>Каньон на южном берегу Ысык-Куля. Ветер и дожди вырезали из красной и жёлтой глины замки, стены и фигуры, похожие на драконов.</p>
+      <span class="meta">Иссык-Кульская область</span></div>
+      <div class="bar"><i style="--w:22.9%"></i></div>
+    </li>
+    <li data-t="lake">
+      <div class="alt"><strong>1880</strong> м<small>около</small></div>
+      <div class="info"><h3>Сары-Челек</h3>
+      <p>Озеро в биосферном заповеднике среди тянь-шаньских елей. Заповедный режим ограничивает посещение, поэтому здесь тихо, а вода прозрачная.</p>
+      <span class="meta">Джалал-Абадская область</span></div>
+      <div class="bar"><i style="--w:25.3%"></i></div>
+    </li>
+    <li data-t="mountain">
+      <div class="alt"><strong>2100</strong> м<small>около</small></div>
+      <div class="info"><h3>Ала-Арча</h3>
+      <p>Национальный парк примерно в часе езды от Бишкека: еловые леса, водопад Ак-Сай и тропы к ледникам. Хорошее место для первого знакомства с горами.</p>
+      <span class="meta">Чуйская область</span></div>
+      <div class="bar"><i style="--w:28.2%"></i></div>
+    </li>
+    <li data-t="lake">
+      <div class="alt"><strong>3016</strong> м</div>
+      <div class="info"><h3>Сон-Куль</h3>
+      <p>Высокогорное озеро среди пастбищ. Летом у воды стоят юрты пастухов и ходят табуны лошадей. Зимой сюда почти невозможно добраться.</p>
+      <span class="meta">Нарынская область</span></div>
+      <div class="bar"><i style="--w:40.5%"></i></div>
+    </li>
+    <li data-t="lake">
+      <div class="alt"><strong>3500</strong> м<small>около</small></div>
+      <div class="info"><h3>Кель-Суу</h3>
+      <p>Бирюзовое озеро у границы с Китаем. Для поездки нужен пропуск в приграничную зону, его оформляют заранее.</p>
+      <span class="meta">Нарынская область</span></div>
+      <div class="bar"><i style="--w:47%"></i></div>
+    </li>
+    <li data-t="mountain">
+      <div class="alt"><strong>7439</strong> м</div>
+      <div class="info"><h3>Пик Победы</h3>
+      <p>Высочайшая точка Кыргызстана и всего Тянь-Шаня. Рядом лежит ледник Иныльчек длиной около 60 км, один из крупнейших горных ледников мира.</p>
+      <span class="meta">Иссык-Кульская область, граница с Китаем</span></div>
+      <div class="bar"><i style="--w:100%"></i></div>
+    </li>
+  </ol>
+</section>
+
+<section id="wild" class="wild">
+  <div class="wrap two">
+    <div>
+      <h2>Живая природа</h2>
+      <p>Высота делит страну на пояса: внизу степи и ореховые леса, выше еловые леса и заросли арчи, ещё выше альпийские луга и скалы со снегом. В каждом поясе живут свои звери и птицы.</p>
+      <p>Весной предгорья покрываются дикими тюльпанами и маками, а на высоких лугах летом расцветает эдельвейс.</p>
+    </div>
+    <dl class="species">
+      <dt>Снежный барс</dt><dd>Редкая кошка высокогорий. Живёт в Тянь-Шане, встретить его почти невозможно, но следы находят в Ала-Арче и Сарычат-Эрташе.</dd>
+      <dt>Архар</dt><dd>Крупный горный баран. Держится стадами на открытых склонах и высокогорных плато.</dd>
+      <dt>Беркут и бородач</dt><dd>Хищные птицы скал. Их можно увидеть над ущельями и перевалами, а местные охотники до сих пор приручают беркутов.</dd>
+      <dt>Тянь-шаньская ель и арча</dt><dd>Основные деревья горных склонов. Ели растут на северных склонах, арча (горный можжевельник) на сухих южных.</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="when" class="wrap">
+  <h2>Когда ехать</h2>
+  <div class="tabs" role="tablist" aria-label="Сезоны">
+    <button role="tab" aria-selected="true" aria-controls="s-spring" id="t-spring">Весна</button>
+    <button role="tab" aria-selected="false" aria-controls="s-summer" id="t-summer" tabindex="-1">Лето</button>
+    <button role="tab" aria-selected="false" aria-controls="s-autumn" id="t-autumn" tabindex="-1">Осень</button>
+    <button role="tab" aria-selected="false" aria-controls="s-winter" id="t-winter" tabindex="-1">Зима</button>
+  </div>
+  <div class="panel" role="tabpanel" id="s-spring" aria-labelledby="t-spring">
+    <h3>Апрель и май</h3>
+    <p>Цветут тюльпаны и маки в предгорьях. В горах ещё лежит снег, поэтому высокие перевалы закрыты, а озёра вроде Сон-Куля недоступны.</p>
+  </div>
+  <div class="panel" role="tabpanel" id="s-summer" aria-labelledby="t-summer" hidden>
+    <h3>С июня по август</h3>
+    <p>Лучшее время для треккинга и юрточных стоянок на джайлоо. В Ысык-Куле можно купаться, а Сон-Куль и Кель-Суу открыты для поездок.</p>
+  </div>
+  <div class="panel" role="tabpanel" id="s-autumn" aria-labelledby="t-autumn" hidden>
+    <h3>Сентябрь и октябрь</h3>
+    <p>Золотая осень в ореховых лесах Арсланбоба и меньше туристов на тропах. Ночи уже холодные, а в горах возможен ранний снег.</p>
+  </div>
+  <div class="panel" role="tabpanel" id="s-winter" aria-labelledby="t-winter" hidden>
+    <h3>С декабря по февраль</h3>
+    <p>Горнолыжные трассы возле Каракола и зимний Ысык-Куль, который остаётся незамерзшим. Высокогорные озёра и многие перевалы закрыты.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>Страница создана для репозитория ClaudeSandbox. Высоты и расстояния приблизительные: перед поездкой проверяйте их по картам и местным источникам.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
